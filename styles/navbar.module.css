@@ -25,6 +25,7 @@
 .title {
     font-size: 2rem;
     width: 100%;
+    margin: 0;
 }
 
 .link {
