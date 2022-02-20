@@ -3,27 +3,26 @@
     height: 4rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    border: 0px solid red;
+    border: 0px solid var(--primary-color);
     border-radius: 2px;
-    padding: 0 1rem;
-    color: red;
+    color: var(--primary-color);
     transition: all 0.3s ease-in-out;
 }
 
 .box:hover {
-    color: black;
-    background-color: red;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
     cursor: pointer;
 }
 
 .box:hover .link {
-    color: black;
+    color: var(--secondary-color);
 }
 
 .link {
-    color: red;
+    color: var(--primary-color);
     flex: auto;
     height: 100%;
     display: flex;
@@ -48,11 +47,11 @@
 
 @media only screen and (max-width: 600px) {
     .box:hover {
-        color: red;
-        background-color: black;
+        color: var(--primary-color);
+        background-color: var(--secondary-color);
     }
     .box:hover .link {
-        color: red;
+        color: var(--primary-color);
     }
     .link:hover {
         transform: translateY(0);
@@ -60,6 +59,6 @@
 
 
     .link {
-        border: 1px solid red;
+        border: 1px solid var(--primary-color);
     }
 }

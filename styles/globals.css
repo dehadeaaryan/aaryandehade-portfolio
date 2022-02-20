@@ -4,14 +4,18 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: black;
-  color: red;
   user-select: none;
   transition: all 0.3s ease-in-out;
+
+  --primary-color: honeydew;
+  --secondary-color: black;
+
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 
 a {
-  color: red;
+  color: var(--primary-color);
   text-decoration: none;
 }
 

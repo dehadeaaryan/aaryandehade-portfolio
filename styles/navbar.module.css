@@ -5,21 +5,21 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    border: 0px solid red;
+    border: 0px solid var(--primary-color);
     border-radius: 2px;
     padding: 0 1rem;
-    color: red;
+    color: var(--primary-color);
     transition: all 0.3s ease-in-out;
 }
 
 .box:hover {
     color: black;
-    background-color: red;
+    background-color: var(--primary-color);
     cursor: pointer;
 }
 
 .box:hover .link {
-    color: black;
+    color: var(--secondary-color);
 }
 
 .title {
@@ -28,7 +28,7 @@
 }
 
 .link {
-    color: red;
+    color: var(--primary-color);
     text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
@@ -38,28 +38,28 @@
 
 @media only screen and (max-width: 600px) {
     .box {
-        border-top: 2px solid red;
-        border-bottom: 2px solid red;
-        border-left: 20px solid red;
-        border-right: 20px solid red;
+        border-top: 2px solid var(--primary-color);
+        border-bottom: 2px solid var(--primary-color);
+        /* border-left: 20px solid var(--primary-color);
+        border-right: 20px solid var(--primary-color); */
+
+        padding: 0;
     }
     .box:hover {
-        color: red;
-        background-color: black;
+        color: var(--primary-color);
+        background-color: var(--secondary-color);
         cursor: pointer;
     }
     .box:hover .link {
-        color: red;
+        color: var(--primary-color);
     }
     .title {
         text-align: center;
-        font-size: 2.5rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
     }
     .link {
-        color: red;
+        color: var(--primary-color);
     }
 
 

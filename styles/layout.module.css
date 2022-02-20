@@ -16,19 +16,19 @@
 }
 
 .main a {
-    color: red;
+    color: var(--primary-color);
     transition: all 0.5s ease-in-out;
-    fill: red;
+    fill: var(--primary-color);
 }
 
 .main:hover {
-    background-color: red;
-    color: black;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .main:hover a {
-    color: black;
-    fill: black;
+    color: var(--secondary-color);
+    fill: var(--secondary-color);
 }
 
 .footer {
@@ -38,13 +38,15 @@
 
 
 @media only screen and (max-width: 600px) {
-    .main:hover {
-        background-color: black;
-        color: red;
+    .main {
+        color: var(--secondary-color);
+        background-color: var(--primary-color);
+        fill: var(--secondary-color);
     }
-
-    .main:hover a {
-        color: red;
-        fill: red;
+    
+    .main a {
+        color: var(--secondary-color);
+        transition: all 0.5s ease-in-out;
+        fill: var(--secondary-color);
     }
 }
