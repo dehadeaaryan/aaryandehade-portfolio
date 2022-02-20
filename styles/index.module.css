@@ -1,0 +1,26 @@
+.container {
+    height: 100%;
+}
+
+.main {
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 6rem;
+    margin: 0;
+}
+
+.paragraph {
+    margin: 0;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    word-spacing: 1rem;
+    font-family: monospace;
+}

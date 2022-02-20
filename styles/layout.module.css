@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 4rem);
+    justify-content: space-between;
+}
+
+.navbar {
+    flex: 1;
+}
+
+.main {
+    flex: 2;
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+.main a {
+    color: red;
+    transition: all 0.5s ease-in-out;
+    fill: red;
+}
+
+.main:hover {
+    background-color: red;
+    color: black;
+}
+
+.main:hover a {
+    color: black;
+    fill: black;
+}
+
+.footer {
+    flex: 3;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .main:hover {
+        background-color: black;
+        color: red;
+    }
+
+    .main:hover a {
+        color: red;
+        fill: red;
+    }
+}

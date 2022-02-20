@@ -1,0 +1,66 @@
+.box {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: 0px solid red;
+    border-radius: 2px;
+    padding: 0 1rem;
+    color: red;
+    transition: all 0.3s ease-in-out;
+}
+
+.box:hover {
+    color: black;
+    background-color: red;
+    cursor: pointer;
+}
+
+.box:hover .link {
+    color: black;
+}
+
+.title {
+    font-size: 2rem;
+    width: 100%;
+}
+
+.link {
+    color: red;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .box {
+        border-top: 2px solid red;
+        border-bottom: 2px solid red;
+        border-left: 20px solid red;
+        border-right: 20px solid red;
+    }
+    .box:hover {
+        color: red;
+        background-color: black;
+        cursor: pointer;
+    }
+    .box:hover .link {
+        color: red;
+    }
+    .title {
+        text-align: center;
+        font-size: 2.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .link {
+        color: red;
+    }
+
+
+}
