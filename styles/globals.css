@@ -7,7 +7,7 @@ body {
   user-select: none;
   transition: all 0.3s ease-in-out;
 
-  --primary-color: honeydew;
+  --primary-color: red;
   --secondary-color: black;
 
   color: var(--primary-color);
