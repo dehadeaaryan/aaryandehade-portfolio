@@ -56,8 +56,6 @@
     .link:hover {
         transform: translateY(0);
     }
-
-
     .link {
         border: 1px solid var(--primary-color);
     }

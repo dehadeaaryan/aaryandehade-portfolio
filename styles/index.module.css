@@ -24,3 +24,10 @@
     word-spacing: 1rem;
     font-family: monospace;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .title {
+        font-size: 3rem;
+    }
+}

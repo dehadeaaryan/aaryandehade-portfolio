@@ -55,7 +55,6 @@
         color: var(--primary-color);
     }
     .title {
-        text-align: start;
         font-size: 1.5rem;
     }
     .link {
