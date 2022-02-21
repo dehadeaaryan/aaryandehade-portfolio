@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>https://www.adehade.tech/</loc>
+
+      <lastmod>2022-02-20</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>1.0</priority>
+
+   </url>
+
+   <url>
+
+      <loc>https://www.adehade.tech/projects/</loc>
+
+      <lastmod>2022-02-20</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+   </url>
+
+   <url>
+
+      <loc>https://www.adehade.tech/about/</loc>
+
+      <lastmod>2022-02-20</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+   </url>
+
+   <url>
+
+      <loc>https://www.adehade.tech/contact/</loc>
+
+      <lastmod>2022-02-20</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+   </url>
+
+   <url>
+
+      <loc>https://www.adehade.tech/api/</loc>
+
+      <lastmod>2022-02-20</lastmod>
+
+      <priority>0.3</priority>
+
+   </url>
+
+</urlset>
