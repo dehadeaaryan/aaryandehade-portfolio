@@ -1,6 +1,7 @@
 import { getAllPostIds, getPostData } from '../../lib/blogPosts'
 import Date from '../../components/date'
 import styles from '../../styles/blog.module.css'
+import Link from 'next/link'
 
 export async function getStaticProps({ params }) {
     const postData = await getPostData(params.id)
@@ -24,9 +25,13 @@ export default function Post({ postData }) {
     return (
     
         <div className={styles.postContainer}>
-        <h3 className={styles.postTitle}>{postData.title}</h3>
-        <small><Date dateString={postData.date} /></small>
-        <div className={styles.content} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+          <h3 className={styles.postTitle}>{postData.title}</h3>
+          <small><Date dateString={postData.date} /></small>
+          <div className={styles.content} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+          <br />
+          <Link href="/blog">
+              <a className={styles.back}>Back to all posts</a>
+          </Link>
         </div>
 
     )
