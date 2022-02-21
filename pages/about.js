@@ -6,7 +6,7 @@ export default function Index() {
         <div className={styles.container}>
             <main className={styles.main}>
                 <h1>Under Construction</h1>
-                <a href='https://blog.adehade.tech'>Blog</a>
+                <Link href="./blog/"><a>Blog</a></Link>
             </main>
         </div>
     )
