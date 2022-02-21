@@ -1,8 +1,11 @@
 import { useForm, ValidationError } from "@formspree/react";
 import styles from "../styles/contact-form.module.css";
 
+const prodForm = process.env.NEXT_PUBLIC_FORM
+const stagingForm = 'xnqwdllk'
+
 export default function ContactForm() {
-  const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORM);
+  const [state, handleSubmit] = useForm(stagingForm);
 
 
   if (state.succeeded) {
