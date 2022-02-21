@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { getSortedPostsData } from '../../lib/blogPosts'
 import Date from '../../components/date'
+import styles from '../../styles/blog.module.css'
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
@@ -13,27 +14,25 @@ export async function getStaticProps() {
 
 export default function Blog({ allPostsData }) {
     return (
-        <>
-        {/* Keep the existing code here */}
-  
-        {/* Add this <section> tag below the existing <section> tag */}
-        <section className='container'>
-          <h2>Blog</h2>
-          <ul>
+        <div className={styles.container}>
+        <h1 className={styles.h1}>Blog</h1>
+        <section className={styles.section}>
+          <ul className={styles.list}>
             {allPostsData.map(({ id, date, title }) => (
-              <li key={id}>
-              <Link href={`/blog/${id}`}>
-                <a>{title}</a>
-              </Link>
+              <Link href={`/blog/${id}`}><a>
+              <li className={styles.item} key={id}>
+                <a className={styles.a}>{title}</a>
               <br />
-              <small>
+              <small className={styles.small}>
                 <Date dateString={date} />
               </small>
             </li>
+            </a>
+            </Link>
 
             ))}
           </ul>
         </section>
-        </>
+        </div>
     )
   }
