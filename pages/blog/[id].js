@@ -25,7 +25,7 @@ export default function Post({ postData }) {
     
         <div className={styles.postContainer}>
         <h3 className={styles.postTitle}>{postData.title}</h3>
-        <small class><Date dateString={postData.date} /></small>
+        <small><Date dateString={postData.date} /></small>
         <div className={styles.content} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </div>
 
