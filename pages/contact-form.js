@@ -2,7 +2,7 @@ import ContactForm from "../components/contact-form";
 
 export default function Contact() {
     return (
-        <div className={styles.container}>
+        <div className='container'>
             <ContactForm />
         </div>
     )
