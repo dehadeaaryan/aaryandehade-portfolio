@@ -5,7 +5,10 @@ export default function ContactForm() {
 
 
   if (state.succeeded) {
-    return <p>Thanks for your submission!</p>;
+    setTimeout(function(){
+        self.close();
+    },2000);
+    return <h2>Thanks for your submission!</h2>;
   }
 
   return (
