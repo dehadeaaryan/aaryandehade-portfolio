@@ -19,7 +19,7 @@ export default function Blog({ allPostsData }) {
         <section className={styles.section}>
           <ul className={styles.list}>
             {allPostsData.map(({ id, date, title }) => (
-              <Link href={`/blog/${id}`}><a>
+              <Link href={`/blog/${id}`} key={id}><a>
               <li className={styles.item} key={id}>
                 <a className={styles.a}>{title}</a>
               <br />
