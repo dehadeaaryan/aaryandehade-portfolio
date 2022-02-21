@@ -6,8 +6,8 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   user-select: none;
   transition: all 0.3s ease-in-out;
-
-  --primary-color: paleturquoise;
+  
+  --primary-color: white;
   --secondary-color: black;
 
   color: var(--primary-color);
