@@ -39,8 +39,8 @@
 
 @media only screen and (max-width: 600px) {
     .box {
-        border-top: 2px solid var(--primary-color);
-        border-bottom: 2px solid var(--primary-color);
+        /* border-top: 2px solid var(--primary-color); */
+        /* border-bottom: 2px solid var(--primary-color); */
         /* border-left: 20px solid var(--primary-color);
         border-right: 20px solid var(--primary-color); */
 
@@ -55,9 +55,8 @@
         color: var(--primary-color);
     }
     .title {
-        text-align: center;
-        font-size: 2rem;
-        letter-spacing: 0.2rem;
+        text-align: start;
+        font-size: 1.5rem;
     }
     .link {
         color: var(--primary-color);
