@@ -8,7 +8,7 @@ export default function Aaryandehade({ Component, pageProps }) {
       <Head>
         <title>Aaryan Dehade</title>
 
-        <meta name="description" content="Aaryan's online portfolio" />
+        <meta name="description" content="Aaryan Dehade" />
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
