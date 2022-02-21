@@ -22,10 +22,10 @@ export default function Blog({ allPostsData }) {
               <Link href={`/blog/${id}`} key={id}><a>
               <li className={styles.item} key={id}>
                 <a className={styles.a}>{title}</a>
-              <br />
-              <small className={styles.small}>
-                <Date dateString={date} />
-              </small>
+                <br />
+                <small className={styles.small}>
+                  <Date dateString={date} />
+                </small>
             </li>
             </a>
             </Link>
