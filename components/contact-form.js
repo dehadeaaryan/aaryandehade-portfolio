@@ -5,7 +5,7 @@ const prodForm = process.env.NEXT_PUBLIC_FORM
 const stagingForm = 'xnqwdllk'
 
 export default function ContactForm() {
-  const [state, handleSubmit] = useForm(stagingForm);
+  const [state, handleSubmit] = useForm(prodForm);
 
 
   if (state.succeeded) {
