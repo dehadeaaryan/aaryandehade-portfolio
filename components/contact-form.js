@@ -16,7 +16,7 @@ export default function ContactForm() {
     <form className={styles.form} onSubmit={handleSubmit}>
         <div className={styles.element}>
             <label className={styles.label} htmlFor="email">Email Address</label>
-            <input className={styles.emailInput} id="email" type="email" name="email" required="reuired" autocomplete="off"/>
+            <input className={styles.emailInput} id="email" type="email" name="email" required="reuired" autoComplete="off"/>
             <ValidationError className={styles.errors} prefix="Email" field="email" errors={state.errors} />
         </div>
             
