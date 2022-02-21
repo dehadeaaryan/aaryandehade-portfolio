@@ -9,7 +9,6 @@ export default function Aaryandehade({ Component, pageProps }) {
         <title>Aaryan Dehade</title>
 
         <meta name="description" content="Aaryan's online portfolio" />
-        <meta charset="utf-8" />
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
