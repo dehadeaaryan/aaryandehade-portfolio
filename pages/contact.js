@@ -11,7 +11,7 @@ export default function Contact() {
             <main className={styles.main}>
                     <a target="_blank" href="https://github.com/dehadeaaryan" rel="noopener noreferrer" className={styles.link}><Github /></a>
                     <a target="_blank" href="https://www.linkedin.com/in/aaryan-dehade-669b1921a/" rel="noopener noreferrer" className={styles.link}><Linkedin /></a>
-                    <a target="_blank" href="mailto:dehadeaaryan@gmail.com" rel="noopener noreferrer" className={styles.link}><Mail /></a>
+                    <a target="_blank" href="mailto:aaryandehade@adehade.tech" rel="noopener noreferrer" className={styles.link}><Mail /></a>
                     <a target="_blank" href="../contact-form" rel="noopener noreferrer" className={styles.link}><Message /></a>
             </main>
         </div>
