@@ -30,7 +30,7 @@ export default function Post({ postData }) {
           <div className={styles.content} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
           <br />
           <Link href="/blog">
-              <a className={styles.back}>Back to all posts</a>
+              <button className={styles.back}><a className={styles.back}>Back to all posts</a></button>
           </Link>
         </div>
 
