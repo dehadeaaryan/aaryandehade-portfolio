@@ -1,7 +1,7 @@
 import styles from '../styles/index.module.css'
 import Project from '../components/project'
 
-export default function Index0() {
+function Index0() {
     return (
         <div className={styles.container}>
             <main className={styles.main}>
@@ -11,11 +11,12 @@ export default function Index0() {
     )
 }
 
-function Index() {
+export default function Index() {
     return (
         <div className={styles.container}>
             <main className={styles.main}>
-                <Project name="Under Construction" link="/" />
+                <Project title="discord-bot-maker" link="https://github.com/dehadeaaryan/discord-bot-maker" />
+                <Project title="pygame-builder" link="https://github.com/dehadeaaryan/pygame-builder" />
             </main>
         </div>
     )
