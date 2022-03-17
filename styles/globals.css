@@ -1,8 +1,8 @@
 html,
 body {
   height: 100vh;
-  width: calc(100vw - 2rem);
-  padding: 1rem;
+  width: 100vw;
+  padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -12,14 +12,24 @@ body {
   --primary-color: white;
   --secondary-color: black;
 
+  --header-background-color: rgba(0, 0, 0, 0.5);
+  --separator-background-color: rgba(255, 255, 255, 1);
+  --footer-background-color: rgba(0, 0, 0, 0);
+
+  --landing-background-color: rgba(0, 0, 0, 0);
+  --projects-background-color: rgba(255, 255, 255, 1);
+  --about-background-color: rgba(255, 255, 255, 1);
+  --contact-background-color: rgba(255, 255, 255, 1);
+
+  --page-height: calc(100vh - 6rem);
+
   color: var(--primary-color);
   background-color: var(--secondary-color);
 
-  overflow: hidden;
+  scroll-behavior: smooth;
 }
 
 a {
-  color: var(--primary-color);
   text-decoration: none;
 }
 
@@ -36,10 +46,9 @@ a {
   height: 100%;
 }
 
-.primary-color {
-  color: var(--primary-color);
-}
-
+/* svg {
+  filter: drop-shadow(0 0.5rem 0.5rem rgba(100, 100, 100, 0.5));
+} */
 
 
 

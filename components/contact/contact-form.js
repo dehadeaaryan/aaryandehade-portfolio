@@ -1,5 +1,5 @@
 import { useForm, ValidationError } from "@formspree/react";
-import styles from "../styles/contact-form.module.css";
+import styles from "../../styles/contact-form.module.css";
 
 const prodForm = process.env.NEXT_PUBLIC_FORM
 const stagingForm = 'xnqwdllk'

@@ -1,10 +1,9 @@
 import Head from 'next/head'
 import '../styles/globals.css'
-import Layout from '../components/layout'
 
 export default function Aaryandehade({ Component, pageProps }) {
   return (
-    <Layout>
+    <div>
       <Head>
         <title>Aaryan Dehade</title>
 
@@ -13,6 +12,6 @@ export default function Aaryandehade({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Component {...pageProps} />
-    </Layout>
+    </div>
   )
 }

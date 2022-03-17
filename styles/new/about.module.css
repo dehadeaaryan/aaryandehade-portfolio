@@ -1,0 +1,30 @@
+.container {
+    background-color: var(--about-background-color);
+    color: var(--secondary-color);
+    height: calc(100vh - 6rem);
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.about {
+    font-size: 3rem;
+    font-weight: 200;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    word-spacing: 1rem;
+    padding: 5rem;
+}
+
+.about a:hover {
+    text-decoration: underline;
+}

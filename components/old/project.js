@@ -1,4 +1,4 @@
-import styles from '../styles/project.module.css'
+import styles from '../../styles/old/project.module.css'
 
 export default function Project(props) {
     return (

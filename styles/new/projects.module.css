@@ -1,0 +1,30 @@
+.container {
+    background-color: var(--projects-background-color);
+    color: var(--secondary-color);
+    height: calc(100vh - 6rem);
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    overflow-y: auto;
+}
+
+.container a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.project {
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid var(--secondary-color);
+    width: 100%;
+}
+
+.project:hover {
+    cursor: pointer;
+}

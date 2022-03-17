@@ -1,7 +1,8 @@
 import Link from 'next/link'
 import { getSortedPostsData } from '../../lib/blogPosts'
-import Date from '../../components/date'
-import styles from '../../styles/blog.module.css'
+import Date from '../../components/blog/date'
+import styles from '../../styles/blog/blog.module.css'
+import Layout from '../../components/old/layout'
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
@@ -14,6 +15,7 @@ export async function getStaticProps() {
 
 export default function Blog({ allPostsData }) {
     return (
+        <Layout>
         <div className={styles.container}>
         <h1 className={styles.h1}>Blog</h1>
         <section className={styles.section}>
@@ -34,5 +36,6 @@ export default function Blog({ allPostsData }) {
           </ul>
         </section>
         </div>
+        </Layout>
     )
   }

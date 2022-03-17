@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    height: calc(100vh - 12rem);
+}
+
+.main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    flex: auto;
+    text-decoration: none;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link:hover {
+    transform: translateY(-1rem);
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .main {
+        flex-direction: column;
+    }
+    .link:hover {
+        transform: translateY(0);
+    }
+}

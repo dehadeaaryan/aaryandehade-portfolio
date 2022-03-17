@@ -1,4 +1,7 @@
-import styles from '../styles/index.module.css'
+import Link from 'next/link'
+import styles from '../../styles/old/index.module.css'
+
+import Layout from '../../components/old/layout'
 
 const title = "Student"
 const text = "Explore this website to know more about me."
@@ -6,6 +9,7 @@ const lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a
 
 export default function Index() {
     return (
+        <Layout>
         <div className={styles.container}>
             <main className={styles.main}>
                 <h1 className={styles.title}>
@@ -13,8 +17,10 @@ export default function Index() {
                 </h1>
                 <p className={styles.paragraph}>
                     {text}
+                    <Link href="./new/"><a>New Single Page Site</a></Link>
                 </p>
             </main>
         </div>
+        </Layout>
     )
 }
