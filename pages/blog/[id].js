@@ -1,6 +1,6 @@
 import { getAllPostIds, getPostData } from '../../lib/blogPosts'
-import Date from '../../components/date'
-import styles from '../../styles/blog.module.css'
+import Date from '../../components/blog/date'
+import styles from '../../styles/blog/blog.module.css'
 import Link from 'next/link'
 
 export async function getStaticProps({ params }) {
