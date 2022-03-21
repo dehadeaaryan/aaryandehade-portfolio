@@ -7,7 +7,8 @@ import Projects from '../../components/new/projects'
 import About from '../../components/new/about'
 import Contact from '../../components/new/contact'
 
-import Separator1 from '../../components/svgs/separator1'
+import LandingSeparator from '../../components/svgs/separator1'
+import FooterSeparator from '../../components/svgs/separator1'
 
 export default function Index() {
 
@@ -31,8 +32,10 @@ export default function Index() {
                 <HeaderProjects />
 
                 <div className={styles.div}>
-                    <span style={anchorStyle} id="projects"></span>
-                    <Projects />
+                    <div className={styles.projectsContainer}>
+                        <span style={anchorStyle} id="projects"></span>
+                        <Projects />
+                    </div>
                 </div>
 
                 <HeaderAbout />
@@ -67,8 +70,10 @@ const Header = () => (
 
 const HeaderProjects = () => (
     <div className={styles.subHeader}>
-        <Separator1 />
-        <h1>Projects</h1>
+        <div className={styles.landingSeparator}>
+            <LandingSeparator />
+        </div>
+        <h2>Projects</h2>
     </div>
 )
 
@@ -85,21 +90,27 @@ const HeaderContact = () => (
 )
 
 const Footer = () => (
-    <div className={styles.footer}>
-        <Link href="#landing">
-            <a className={styles.link}>landing</a>
-        </Link>
+    <div>
+        <div className={styles.footerSeparator}>
+            <FooterSeparator />
+        </div>
+        <div className={styles.footer}>
+            <Link href="#landing">
+                <a className={styles.link}>Home</a>
+            </Link>
 
-        <Link href="#projects">
-            <a className={styles.link}>Projects</a>
-        </Link>
+            <Link href="#projects">
+                <a className={styles.link}>Projects</a>
+            </Link>
 
-        <Link href="#about">
-            <a className={styles.link}>About</a>
-        </Link>
+            <Link href="#about">
+                <a className={styles.link}>About</a>
+            </Link>
 
-        <Link href="#contact">
-            <a className={styles.link}>Contact</a>
-        </Link>
+            <Link href="#contact">
+                <a className={styles.link}>Contact</a>
+            </Link>
+        </div>
+        <div className={styles.copyright}>&copy; 2022 Aaryan Dehade</div>
     </div>
 )

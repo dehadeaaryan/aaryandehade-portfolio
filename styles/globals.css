@@ -12,7 +12,7 @@ body {
   --primary-color: white;
   --secondary-color: black;
 
-  --header-background-color: rgba(0, 0, 0, 0.5);
+  --header-background-color: rgba(0, 0, 0, 0.3);
   --separator-background-color: rgba(255, 255, 255, 1);
   --footer-background-color: rgba(0, 0, 0, 0);
 

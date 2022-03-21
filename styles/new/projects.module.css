@@ -2,14 +2,25 @@
     background-color: var(--projects-background-color);
     color: var(--secondary-color);
     height: calc(100vh - 6rem);
-    width: 100%;
-    padding: 2rem;
+    width: 90%;
+    padding: 4rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 
+    border-radius: 2rem;
+    box-shadow: 2rem;
+
     overflow-y: auto;
+
+    box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.5);
+
+    transition: all 0.5s ease;
+}
+
+.container:hover {
+    box-shadow: 0rem 0.2rem 1rem rgba(0, 0, 0, 0.5);
 }
 
 .container a {
@@ -17,12 +28,48 @@
     color: var(--secondary-color);
 }
 
-.project {
-    border-radius: 4px;
-    padding: 20px;
-    margin-bottom: 20px;
-    border: 2px solid var(--secondary-color);
+.projectElement {
+    border-radius: 0.5rem;
+    padding: 4rem;
     width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-between;
+    transition: all 0.5s ease;
+    box-shadow: 0rem 0.1rem 0.5rem rgba(0, 0, 0, 0.05);
+
+    letter-spacing: 0.2rem;
+    font-weight: 200;
+}
+
+.projectElement div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.linkSymbol {
+    justify-content: end;
+    text-align: end;
+    opacity: 0;
+
+    transition: all 0.2s ease;
+}
+
+.projectElement:hover {
+    box-shadow: 0rem 0.1rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.projectElement:hover .linkSymbol {
+    opacity: 0.5;
+}
+
+.project {
+    margin: 0.5rem;
+    width: 100%;
+    height: 100%;
 }
 
 .project:hover {

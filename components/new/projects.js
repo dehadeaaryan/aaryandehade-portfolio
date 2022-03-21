@@ -12,7 +12,7 @@ export default function Landing() {
 function Project(props) {
     return (
         <a target="_blank" rel="noopener noreferrer" href={props.link} className={styles.project}>
-            <div>{props.title}</div>
+            <div className={styles.projectElement}><div>{props.title}</div><div className={styles.linkSymbol}>🔗</div></div>
         </a>
     )
 }

@@ -5,21 +5,18 @@ import Linkedin from '../../icons/linkedin'
 import Mail from '../../icons/mail'
 import Message from '../../icons/message'
 
+const githubLink = "https://github.com/dehadeaaryan"
+const linkedinLink = "https://www.linkedin.com/in/dehadeaaryan/"
+const mailLink = "mailto:aaryandehade@adehade.tech"
+const messageLink = "../contact/"
+
 export default function Contact() {
     return (
         <div className={styles.container}>
-            <div className={styles.box}>
-                <a target="_blank" href="https://github.com/dehadeaaryan" rel="noopener noreferrer" className={styles.link}><Github /></a>
-            </div>
-            <div className={styles.box}>
-                <a target="_blank" href="https://www.linkedin.com/in/aaryan-dehade-669b1921a/" rel="noopener noreferrer" className={styles.link}><Linkedin /></a>
-            </div>
-            <div className={styles.box}>
-                <a target="_blank" href="mailto:aaryandehade@adehade.tech" rel="noopener noreferrer" className={styles.link}><Mail /></a>
-            </div>
-            <div className={styles.box}>
-                <a target="_blank" href="../contact/" rel="noopener noreferrer" className={styles.link}><Message /></a>
-            </div>
+            <a target="_blank" href={githubLink} rel="noopener noreferrer" className={styles.link}><Github /></a>
+            <a target="_blank" href={linkedinLink} rel="noopener noreferrer" className={styles.link}><Linkedin /></a>
+            <a target="_blank" href={mailLink} rel="noopener noreferrer" className={styles.link}><Mail /></a>
+            <a target="_blank" href={messageLink} rel="noopener noreferrer" className={styles.link}><Message /></a>
         </div>
     )
 }

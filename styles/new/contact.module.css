@@ -10,11 +10,6 @@
     align-items: center;
 }
 
-.box {
-    padding: 1rem;
-    
-}
-
 .link {
     flex: auto;
     text-decoration: none;
