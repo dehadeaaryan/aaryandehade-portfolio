@@ -19,8 +19,8 @@ export default function Lim() {
                         <option>∞</option>
                     </select>
                 </div>
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
+                <div className="mb-3 form-check">
+                    <input type="checkbox" className="form-check-input" id="exampleCheck1"></input>
                     <label className="form-check-label" htmlFor="exampleCheck1">Check me out</label>
                 </div>
                 <button type="submit" className="btn btn-primary">Submit</button>
