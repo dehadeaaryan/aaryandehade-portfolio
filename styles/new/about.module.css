@@ -3,6 +3,7 @@
     color: var(--secondary-color);
     height: calc(100vh - 6rem);
     width: 100%;
+    margin: 0;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -27,7 +28,7 @@
 }
 
 .about a {
-    text-decoration: underline 0.2rem rgba(0, 0, 0, 0);
+    text-decoration: underline 0.2rem rgba(0, 0, 0, 0 );
     transition: all 0.5s ease;
 }
 

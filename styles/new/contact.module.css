@@ -3,6 +3,7 @@
     color: var(--secondary-color);
     height: calc(100vh - 6rem);
     width: 100%;
+    margin: 0;
     padding: 2rem;
     display: flex;
     flex-direction: row;
@@ -24,4 +25,14 @@
 
 .link:hover {
     transform: translateY(-1rem);
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .link:hover {
+        transform: translateY(-1rem);
+    }
 }

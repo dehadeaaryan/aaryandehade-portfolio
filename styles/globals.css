@@ -1,7 +1,8 @@
 html,
 body {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
+
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -53,7 +54,5 @@ a {
 
 
 @media only screen and (max-width: 600px) {
-  body {
-    padding: 0;
-  }
+  
 }

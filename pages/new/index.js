@@ -5,6 +5,7 @@ import styles from '../../styles/new/index.module.css'
 import Landing from '../../components/new/landing'
 import Projects from '../../components/new/projects'
 import About from '../../components/new/about'
+import Skills from '../../components/new/skills'
 import Contact from '../../components/new/contact'
 
 import LandingSeparator from '../../components/svgs/separator1'
@@ -45,6 +46,13 @@ export default function Index() {
                     <About />
                 </div>
 
+                {/* <HeaderSkills />
+
+                <div className={styles.div}>
+                    <span style={anchorStyle} id="Skills"></span>
+                    <Skills />
+                </div> */}
+
                 <HeaderContact />
 
                 <div className={styles.div}>
@@ -80,6 +88,12 @@ const HeaderProjects = () => (
 const HeaderAbout = () => (
     <div className={styles.subHeader}>
         <h1>About</h1>
+    </div>
+)
+
+const HeaderSkills = () => (
+    <div className={styles.subHeader}>
+        <h1>Skills</h1>
     </div>
 )
 

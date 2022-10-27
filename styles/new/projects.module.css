@@ -3,6 +3,7 @@
     color: var(--secondary-color);
     height: calc(100vh - 6rem);
     width: 90%;
+    margin: 0;
     padding: 4rem;
     display: flex;
     flex-direction: column;
@@ -13,6 +14,7 @@
     box-shadow: 2rem;
 
     overflow-y: auto;
+    overflow-x: hidden;
 
     box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.5);
 

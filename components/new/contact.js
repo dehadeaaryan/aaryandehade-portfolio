@@ -6,7 +6,7 @@ import Mail from '../../icons/mail'
 import Message from '../../icons/message'
 
 const githubLink = "https://github.com/dehadeaaryan"
-const linkedinLink = "https://www.linkedin.com/in/dehadeaaryan/"
+const linkedinLink = "https://www.linkedin.com/in/aaryan-dehade-669b1921a/"
 const mailLink = "mailto:aaryandehade@adehade.tech"
 const messageLink = "../contact/"
 

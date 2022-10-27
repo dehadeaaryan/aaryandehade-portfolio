@@ -15,9 +15,9 @@ export default function Index() {
                 <h1 className={styles.title}>
                     {title}
                 </h1>
+                <br />
                 <p className={styles.paragraph}>
                     {text}
-                    <Link href="./new/"><a>New Single Page Site</a></Link>
                 </p>
             </main>
         </div>
