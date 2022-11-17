@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { getSortedPostsData } from '../../lib/blogPosts'
 import Date from '../../components/blog/date'
 import styles from '../../styles/blog/blog.module.css'
-import Header from '../../components/new/Header'
+import Header from '../components/new/Header'
 
 import LandingSeparator from '../../components/svgs/separator1'
 
