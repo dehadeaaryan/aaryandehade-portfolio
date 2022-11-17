@@ -1,0 +1,44 @@
+.footer {
+    background-color: var(--footer-background-color);
+    color: var(--primary-color);
+    text-align: center;
+    
+    height: 30vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.footer a {
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+
+    letter-spacing: 0.2rem;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(60, 60, 60);
+
+    position: relative;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.footerSeparator {
+    height: 150px;
+    transform: rotate(180deg);
+    margin-top: -150px;
+    background-color: var(--primary-color);
+}

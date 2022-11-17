@@ -17,13 +17,59 @@
 .title {
     font-size: 6rem;
     margin: 0;
+    filter: drop-shadow(0rem 5rem 0rem rgba(64, 255, 0, 0.8));
+    animation: first 2s, titleKeyframes 10s ease-in-out 2s infinite;
 }
 
 .paragraph {
-    margin: 0;
     font-size: 1rem;
     text-align: center;
-    width: 100%;
+    width: 60%;
     word-spacing: 1rem;
     font-family: monospace;
+
+    overflow: hidden; 
+    border-right: .15em solid var(--primary-color); 
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: 
+        typing 5s steps(40, end),
+        blink-caret 0.75s step-end infinite;
 }
+
+@keyframes first {
+    from { filter: drop-shadow(0rem 5rem 0rem rgba(64, 255, 0, 0.2)); }
+    to { filter: drop-shadow(0rem 0.5rem 0.5rem rgba(64, 255, 0, 0.8)); }
+}
+
+@keyframes titleKeyframes {
+    0% {
+        filter: drop-shadow(0rem 0.5rem 0.5rem rgba(64, 255, 0, 0.8));
+    }
+    25% {
+        filter: drop-shadow(0 0.5rem 0.5rem rgba(0, 255, 255, 0.8));
+    }
+    50% {
+        filter: drop-shadow(0 0.5rem 0.5rem rgba(242, 0, 255, 0.8));
+    }
+    75% {
+        filter: drop-shadow(0 0.5rem 0.5rem rgba(0, 255, 251, 0.8));
+    }
+    100% {
+        filter: drop-shadow(0 0.5rem 0.5rem rgba(64, 255, 0, 0.8));
+    }
+    
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 60% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: var(--primary-color); }
+  }

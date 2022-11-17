@@ -28,9 +28,9 @@ export default function Post({ postData }) {
           <h3 className={styles.postTitle}>{postData.title}</h3>
           <small><Date dateString={postData.date} /></small>
           <div className={styles.content} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-          <br />
+          <small>Aaryan Dehade</small>
           <Link href="../blog/">
-              <button className={styles.back}><a className={styles.back}>Back to all posts</a></button>
+              <button className={styles.back}><a>Back to all posts</a></button>
           </Link>
         </div>
 

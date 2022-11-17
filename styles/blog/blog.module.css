@@ -1,26 +1,19 @@
 .container {
-    height: calc(100vh - 12rem);
+    height: calc(100vh - 6rem);
     width: 100%;
-
-    padding: 2rem;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
     background-color: var(--secondary-color);
     color: var(--primary-color);
 }
 
-.container:hover a {
-    color: var(--primary-color);
-}
-
 .h1 {
+    margin-top: 6rem;
     width: 100%;
     text-align: center;
     font-size: 4rem;
+    height: 6rem;
+    margin-bottom: 0;
+    padding: 0;
 }
 
 .section {
@@ -29,7 +22,7 @@
     justify-content: flex-start;
     align-items: flex-start;
 
-    height: 50vh;
+    height: calc(100vh - 12rem);
     width: 100%;
 
     overflow-y: auto;
@@ -53,7 +46,7 @@
 }
 
 .item {
-    transition: all 0.5s ease-in-out;
+    transition: all 0.2s ease-in-out;
     border-radius: 5px;
     padding: 1rem;
     margin: 1rem;
@@ -68,8 +61,14 @@
     color: var(--secondary-color);
 }
 
+.item:hover .small {
+    color: var(--secondary-color);
+}
+
 .small {
     font-size: 0.8rem;
+    opacity: 0.5;
+    color: var(--primary-color);
     opacity: 0.5;
 }
 
@@ -77,12 +76,10 @@
 
 
 .postContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    margin: 0;
+    padding: 0;
 
-    height: calc(100vh - 14rem);
+    height: calc(100vh);
     width: 100%;
 
     overflow-y: auto;
@@ -90,6 +87,8 @@
     padding: 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+
+    transition: all 0.2s ease-in-out;
 }
 
 .postContainer small {
@@ -108,37 +107,32 @@
 .content {
     padding-top: 2rem;
     width: 100%;
-    height: 100%;
-
-    overflow-y: auto;
+    min-height: calc(100vh - 12rem);
 
     user-select: text;
 }
 
 .postContainer a {
     text-decoration: none;
+    color: var(--primary-color);
+    transition: all 0.2s ease-in-out;
+}
+
+.postContainer a:hover {
     color: cyan;
 }
 
-.postContainer:hover a {
-    text-decoration: underline;
-    color: blue;
-}
-
-.postContainer:hover .back a {
-    text-decoration: none;
-    color: var(--primary-color);
-}
-
 .back {
-    border: none;
+    border: 1px solid var(--primary-color);
     border-radius: 2px;
-    background-color: dimgrey;
+    background-color: var(--secondary-color);
     padding: 1rem;
     color: var(--primary-color);
     font-size: 1rem;
     cursor: pointer;
     width: 100%;
+    transition: all 0.2s ease-in-out;
+    margin-top: 2rem;
 }
 
 .back a {
@@ -146,9 +140,13 @@
     color: var(--primary-color);
 }
 
+.back:hover {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
 .back:hover a {
-    color: var(--primary-color);
-    text-decoration: none;
+    color: var(--secondary-color);
 }
 
 @media only screen and (max-width: 600px) {
