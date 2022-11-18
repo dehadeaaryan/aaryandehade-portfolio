@@ -17,14 +17,14 @@
 .title {
     font-size: 6rem;
     margin: 0;
-    filter: drop-shadow(0rem 5rem 0rem rgba(64, 255, 0, 0.8));
-    animation: first 2s, titleKeyframes 10s ease-in-out 2s infinite;
+    filter: drop-shadow(0rem 5rem 0rem rgba(64, 255, 0, 0.2));
+    animation: first 2s ease-in-out 1s, titleKeyframes 10s ease-in-out 3s infinite;
 }
 
 .paragraph {
     font-size: 1rem;
     text-align: center;
-    width: 60%;
+    width: 0%;
     word-spacing: 1rem;
     font-family: monospace;
 
@@ -34,7 +34,7 @@
     margin: 0 auto;
     letter-spacing: .15em;
     animation: 
-        typing 5s steps(40, end),
+        typing 3s steps(40, end) 3s forwards,
         blink-caret 0.75s step-end infinite;
 }
 
