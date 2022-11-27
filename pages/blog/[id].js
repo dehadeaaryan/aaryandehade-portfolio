@@ -26,9 +26,11 @@ export default function Post({ postData }) {
     
         <div className={styles.postContainer}>
           <h3 className={styles.postTitle}>{postData.title}</h3>
-          <small><Date dateString={postData.date} /></small>
-          <div className={styles.content} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-          <small>Aaryan Dehade</small>
+          <div className={styles.center}>
+            <small><Date dateString={postData.date} /></small>
+            <div className={styles.content} dangerouslySetInnerHTML={{ __html: postData.contentHtml }}></div>
+            <small>Aaryan Dehade</small>
+          </div>
           <Link href="../blog/">
               <button className={styles.back}><a>Back to all posts</a></button>
           </Link>

@@ -17,6 +17,7 @@ export default function Contact() {
             <a target="_blank" href={linkedinLink} rel="noopener noreferrer" className={styles.link}><Linkedin /></a>
             <a target="_blank" href={mailLink} rel="noopener noreferrer" className={styles.link}><Mail /></a>
             <a target="_blank" href={messageLink} rel="noopener noreferrer" className={styles.link}><Message /></a>
+            <span className={styles.link}></span>
         </div>
     )
 }

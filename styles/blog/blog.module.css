@@ -76,19 +76,25 @@
 
 
 .postContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     margin: 0;
     padding: 0;
 
-    height: calc(100vh);
+    height: 100vh;
     width: 100%;
 
     overflow-y: auto;
 
     padding: 2rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
 
     transition: all 0.2s ease-in-out;
+}
+
+.center {
+    height: 100%;
 }
 
 .postContainer small {
@@ -107,8 +113,7 @@
 .content {
     padding-top: 2rem;
     width: 100%;
-    min-height: calc(100vh - 12rem);
-
+    overflow-y: auto;
     user-select: text;
 }
 
@@ -123,6 +128,7 @@
 }
 
 .back {
+
     border: 1px solid var(--primary-color);
     border-radius: 2px;
     background-color: var(--secondary-color);
@@ -150,10 +156,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .container {
-        background-color: var(--primary-color);
-        color: var(--secondary-color);
-    }
 
     .section {
         border-top: 5px solid var(--secondary-color);
@@ -164,12 +166,17 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
+        opacity: 0.5;
         
-        background-color: #010101d3;
-        color: var(--primary-color);
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
     }
 
     .item a {
-        color: var(--primary-color);
+        color: var(--secondary-color);
+    }
+
+    .small {
+        color: var(--secondary-color);
     }
 }

@@ -10,7 +10,8 @@ export default function Landing() {
                 {title}
             </h1>
             <p className={styles.paragraph}>
-                {text}
+                <span>{text}</span>
+                <span className={styles.two}>{text}</span>
             </p>
         </div>
     )

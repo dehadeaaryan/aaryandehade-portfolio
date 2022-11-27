@@ -21,6 +21,8 @@
     -webkit-backdrop-filter: blur(0.5rem);
 
     box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.5);
+
+    border-radius: 0rem 0rem 2rem 2rem;
 }
 
 .header a {

@@ -3,6 +3,7 @@ import styles from '../../styles/new/projects.module.css'
 export default function ProjectsOld() {
     return (
         <div className={styles.container}>
+            <Project title="Turtler" link="https://github.com/dehadeaaryan/turtler" />
             <Project title="discord-bot-maker" link="https://github.com/dehadeaaryan/discord-bot-maker" />
             <Project title="pygame-builder" link="https://github.com/dehadeaaryan/pygame-builder" />
             <Project title="JustDropIt" link="https://github.com/justDropIt/JustDropIt" />

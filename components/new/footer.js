@@ -24,6 +24,7 @@ export default function Footer() {
             <Link href="#contact">
                 <a className={styles.link}>Contact</a>
             </Link>
+            <span className={styles.link}></span>
         </div>
         <div className={styles.copyright}>&copy; 2022 Aaryan Dehade</div>
     </div>
