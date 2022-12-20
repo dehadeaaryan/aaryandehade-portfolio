@@ -2,7 +2,7 @@
     background-color: var(--projects-background-color);
     color: var(--secondary-color);
     height: calc(100vh - 12rem);
-    width: 90%;
+    width: 100%;
     margin: 0;
     padding: 4rem;
     display: flex;
@@ -76,6 +76,13 @@
 
 .project:hover {
     cursor: pointer;
+}
+
+.tiltingArea {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
 }
 
 @media screen and (max-width: 860px) {

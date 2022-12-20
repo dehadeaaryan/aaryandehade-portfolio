@@ -1,7 +1,10 @@
 import styles from '../../styles/new/projects.module.css'
 
+import Tilt from 'react-parallax-tilt';
+
 export default function ProjectsOld() {
     return (
+        <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5} transitionSpeed={2000} gyroscope={true} className={styles.tiltingArea}>
         <div className={styles.container}>
             <Project title="Turtler" link="https://github.com/dehadeaaryan/turtler" />
             <Project title="discord-bot-maker" link="https://github.com/dehadeaaryan/discord-bot-maker" />
@@ -14,6 +17,7 @@ export default function ProjectsOld() {
             <Project title="More" link="https://github.com/TCU-COSC-MCS-DSA" />
             
         </div>
+        </Tilt>
     )
 }
 
