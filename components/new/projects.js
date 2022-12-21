@@ -14,7 +14,7 @@ export default function ProjectsOld() {
             <Project title="Music.www" link="https://github.com/dehadeaaryan/music.www---new" />
             <Project title="Quacker" link="https://github.com/dehadeaaryan/quacker-bot-master" />
             <Project title="Sudoku Solver" link="https://github.com/dehadeaaryan/Sudoku-Solver" />
-            <Project title="More" link="https://github.com/TCU-COSC-MCS-DSA" />
+            <Project title="More" link="https://github.com/dehadeaaryan?tab=repositories" />
             
         </div>
         </Tilt>
