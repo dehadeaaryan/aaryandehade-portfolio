@@ -14,22 +14,17 @@ import Contact from '../../components/new/contact'
 
 import LandingSeparator from '../../components/svgs/separator1'
 
+import React from 'react';
+import Modal from 'react-modal';
+
+Modal.setAppElement('#landing');
+
 export default function Index() {
 
     const anchorStyle = {
         visibility: 'hidden',
         position: 'relative',
         top: '-6rem',
-    }
-
-    let state = {
-        show: false
-    }
-
-    function showModal(e) {
-        setState({
-            show: true
-          });
     }
 
     return (
@@ -63,13 +58,12 @@ export default function Index() {
                     <About />
                 </div>
 
-                {/* <HeaderResume />
+                <HeaderResume />
 
                 <div className={styles.div}>
                     <span style={anchorStyle} id="resume"></span>
-                    <Resume show={state.show} />
-                    <button onClick={(e) => {showModal()} }>Show</button>
-                </div> */}
+                    <Resume />
+                </div>
 
                 {/* <HeaderSkills />
 

@@ -23,7 +23,7 @@
     height: 6rem;
     width: 100%;
     background-color: var(--separator-background-color);
-    padding: 0;
+    padding: 0rem;
 }
 
 .subHeader {

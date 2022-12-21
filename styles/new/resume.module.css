@@ -1,0 +1,103 @@
+.resume {
+    width: 100%;
+    height: calc(100vh - 12rem);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+}
+
+.modalButton {
+    display: inline-block;
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+    border: none;
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 50%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.modalButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.modalButton span:after {
+    content: '📂';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -1rem;
+    transition: 0.5s;
+}
+
+.modalButton:hover span {
+    padding-right: 25px;
+}
+
+.modalButton:hover span:after {
+    opacity: 1;
+    right: -0.5rem;
+}
+
+.modalSmall {
+    opacity: 0.7;
+}
+
+.resumeDownloadLink {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.modalButton2 {
+    display: inline-block;
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+    border: none;
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 50%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.modalButton2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.modalButton2 span:after {
+    content: '⬇️';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -1rem;
+    transition: 0.5s;
+}
+
+.modalButton2:hover span {
+    padding-right: 25px;
+}
+
+.modalButton2:hover span:after {
+    opacity: 1;
+    right: -0.5rem;
+}
