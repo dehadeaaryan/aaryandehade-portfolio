@@ -42,6 +42,10 @@ export default function Index() {
                 <div className={styles.div}>
                     <Landing/>
                 </div>
+
+                <div className={styles.landingSeparator}>
+                    <LandingSeparator />
+                </div>
                 
                 <HeaderProjects />
 
@@ -90,33 +94,30 @@ export default function Index() {
 
 const HeaderProjects = () => (
     <div className={styles.subHeader}>
-        <div className={styles.landingSeparator}>
-            <LandingSeparator />
-        </div>
         <h2>Projects</h2>
     </div>
 )
 
 const HeaderAbout = () => (
     <div className={styles.subHeader}>
-        <h1>About</h1>
+        <h2>About</h2>
     </div>
 )
 
 const HeaderResume = () => (
     <div className={styles.subHeader}>
-        <h1>Resume</h1>
+        <h2>Resume</h2>
     </div>
 )
 
 const HeaderSkills = () => (
     <div className={styles.subHeader}>
-        <h1>Skills</h1>
+        <h2>Skills</h2>
     </div>
 )
 
 const HeaderContact = () => (
     <div className={styles.subHeader}>
-        <h1>Contact</h1>
+        <h2>Contact</h2>
     </div>
 )
