@@ -1,11 +1,9 @@
-import Layout from "../components/old/layout"
+
 
 export default function C404() {
     return(
-        <Layout>
-        <div className="container">
-            <h1>Page Not Found</h1>
+        <div className="container" style={{display: "flex", justifyContent: "center", alignItems: "center", height:"100vh"}} >
+            <h1>Page not found ☹︎</h1>
         </div>
-        </Layout>
     )
 }
