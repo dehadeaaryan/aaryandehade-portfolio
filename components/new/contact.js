@@ -6,10 +6,10 @@ import Github from '../../icons/github'
 import Linkedin from '../../icons/linkedin'
 // import Hackerrank from '../../icons/hackerrank'
 
-const mailLink = "mailto:aaryandehade@adehade.tech"
+const mailLink = "mailto:aaryanadehade@gmail.com"
 const messageLink = "../contact/"
 const githubLink = "https://github.com/dehadeaaryan"
-const linkedinLink = "https://www.linkedin.com/in/aaryan-dehade-669b1921a/"
+const linkedinLink = "https://www.linkedin.com/in/aaryandehade/"
 // const hackerrankLink = "https://www.hackerrank.com/dehadeaaryan"
 
 export default function Contact() {

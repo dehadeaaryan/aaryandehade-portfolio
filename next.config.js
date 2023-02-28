@@ -19,6 +19,30 @@ const nextConfig = {
 
     return config
   },
+
+  async rewrites() {
+    return [
+        {
+          source: '/new',
+          destination: '/blog',
+        },
+        {
+            source: '/blog',
+            destination: '/new',
+        },
+      ]
+    var obj = {
+        source: '/:path*',
+        has: [
+              {
+                type: 'host',
+                value: 'blog.*',
+              },
+        ],
+        destination: `/blog`,
+      }
+    return [obj]
+  },
 }
 
 module.exports = nextConfig

@@ -9,3 +9,84 @@
 2022.12.25 18:08:37 INFO  
 2022.12.25 18:08:37 INFO  time: ran 'giter8.Giter8' in 1.64s
 2022.12.25 18:08:42 INFO  shutting down Metals
+2023.02.23 17:12:22 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/aaryandehade/Documents/code/web/portfolioNew/aaryandehade/.metals/lsp.trace.json or /Users/aaryandehade/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.02.23 17:12:23 INFO  logging to file /Users/aaryandehade/Documents/code/web/portfolioNew/aaryandehade/.metals/metals.log
+2023.02.23 17:12:23 INFO  Started: Metals version 0.11.10 in workspace '/Users/aaryandehade/Documents/code/web/portfolioNew/aaryandehade' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/aaryandehade/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.23 17:12:24 INFO  time: initialize in 0.97s
+2023.02.23 17:12:26 WARN  Build server is not auto-connectable.
+2023.02.23 17:12:26 WARN  no build tool detected in workspace '/Users/aaryandehade/Documents/code/web/portfolioNew/aaryandehade'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.02.23 17:12:26 WARN  no build target for: /Users/aaryandehade/Documents/code/eclipse-workspace/Labs/src/Lab1.java
+Feb 23, 2023 5:12:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+Feb 23, 2023 5:12:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: org.eclipse.jdt.core.compiler.InvalidInputException: Binary_Literal_Not_Below_17
+java.util.concurrent.CompletionException: org.eclipse.jdt.core.compiler.InvalidInputException: Binary_Literal_Not_Below_17
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2158)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: org.eclipse.jdt.core.compiler.InvalidInputException: Binary_Literal_Not_Below_17
+	at org.eclipse.jdt.internal.core.util.PublicScanner.scanNumber(PublicScanner.java:3760)
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1854)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.next$1(JavaFoldingRangeExtractor.scala:100)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:145)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1809)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.02.23 17:12:27 WARN  Running javac-semanticdb failed for file:///Users/aaryandehade/Documents/code/eclipse-workspace/Labs/src/Lab1.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x23bb8443) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x23bb8443
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+Feb 23, 2023 5:12:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: org.eclipse.jdt.core.compiler.InvalidInputException: Binary_Literal_Not_Below_17
+java.util.concurrent.CompletionException: org.eclipse.jdt.core.compiler.InvalidInputException: Binary_Literal_Not_Below_17
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2158)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+Caused by: org.eclipse.jdt.core.compiler.InvalidInputException: Binary_Literal_Not_Below_17
+	at org.eclipse.jdt.internal.core.util.PublicScanner.scanNumber(PublicScanner.java:3760)
+	at org.eclipse.jdt.internal.core.util.PublicScanner.getNextToken(PublicScanner.java:1854)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.next$1(JavaFoldingRangeExtractor.scala:100)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.gather$1(JavaFoldingRangeExtractor.scala:145)
+	at scala.meta.internal.parsing.JavaFoldingRangeExtractor.extract(JavaFoldingRangeExtractor.scala:155)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForJava$2(FoldingRangeProvider.scala:54)
+	at scala.Option$WithFilter.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForJava(FoldingRangeProvider.scala:49)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$3(MetalsLanguageServer.scala:1809)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.02.23 19:24:56 INFO  shutting down Metals
