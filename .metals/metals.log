@@ -90,3 +90,31 @@ Caused by: org.eclipse.jdt.core.compiler.InvalidInputException: Binary_Literal_N
 	... 3 more
 
 2023.02.23 19:24:56 INFO  shutting down Metals
+2023.03.07 12:49:14 INFO  Started: Metals version 0.11.11 in workspace '/Users/aaryandehade/Documents/code/web/portfolioNew/aaryandehade' for client Visual Studio Code 1.76.0.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/aaryandehade/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.07 12:49:14 INFO  time: initialize in 0.39s
+2023.03.07 12:49:16 WARN  Build server is not auto-connectable.
+2023.03.07 12:49:16 WARN  no build tool detected in workspace '/Users/aaryandehade/Documents/code/web/portfolioNew/aaryandehade'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Mar 07, 2023 12:49:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Mar 07, 2023 12:49:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Mar 07, 2023 12:49:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2023.03.07 12:49:16 WARN  no build target for: /Users/aaryandehade/Documents/code/eclipse-workspace/Labs/src/Lab1.java
+2023.03.07 12:49:17 WARN  Running javac-semanticdb failed for file:///Users/aaryandehade/Documents/code/eclipse-workspace/Labs/src/Lab1.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x23bb8443) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x23bb8443
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+Mar 07, 2023 12:50:49 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
