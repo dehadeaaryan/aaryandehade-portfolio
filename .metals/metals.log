@@ -118,3 +118,6 @@ Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.s
 	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
 Mar 07, 2023 12:50:49 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2023.03.07 12:51:21 INFO  Shutting down server
+2023.03.07 12:51:21 INFO  shutting down Metals
+2023.03.07 12:51:21 INFO  Exiting server
