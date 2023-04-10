@@ -9,7 +9,7 @@ export default function ProjectsOld() {
             <Project title="Marie Simulator" link="https://github.com/dehadeaaryan/MarieSimulator" />
             <Project title="JustDropIt" link="https://github.com/justDropIt/JustDropIt" />
             <Project title="discord-bot-maker" link="https://github.com/dehadeaaryan/discord-bot-maker" />
-            <Project title="Music.www" link="https://github.com/dehadeaaryan/music.www---new" />
+            <Project title="Music.www" link="https://github.com/dehadeaaryan/Music.www" />
             <Project title="Quacker" link="https://github.com/dehadeaaryan/quacker-bot-master" />
             <Project title="Turtler" link="https://github.com/dehadeaaryan/turtler" />
             <Project title="pygame-builder" link="https://github.com/dehadeaaryan/pygame-builder" />
