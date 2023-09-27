@@ -1,7 +1,7 @@
 import styles from '../../styles/new/landing.module.css'
 
-const title = "Student"
-const text = "Explore this website to know more about me."
+const title = "AD"
+const text = "Step into my digital realm, your gateway to my adventures."
 
 export default function Landing() {
     return (
