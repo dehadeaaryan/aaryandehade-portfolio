@@ -1,57 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-   <url>
-
-      <loc>https://www.aaryandehade.live/</loc>
-
-      <lastmod>2022-03-17</lastmod>
-
-      <changefreq>monthly</changefreq>
-
-      <priority>1.0</priority>
-
-   </url>
-
-   <url>
-
-      <loc>https://www.aaryandehade.live/projects/</loc>
-
-      <lastmod>2022-02-20</lastmod>
-
-      <changefreq>weekly</changefreq>
-
-   </url>
-
-   <url>
-
-      <loc>https://www.aaryandehade.live/about/</loc>
-
-      <lastmod>2022-02-20</lastmod>
-
-      <changefreq>weekly</changefreq>
-
-   </url>
-
-   <url>
-
-      <loc>https://www.adehade.tech/contact/</loc>
-
-      <lastmod>2022-02-20</lastmod>
-
-      <changefreq>weekly</changefreq>
-
-   </url>
-
-   <url>
-
-      <loc>https://www.adehade.tech/api/</loc>
-
-      <lastmod>2022-02-20</lastmod>
-
-      <priority>0.3</priority>
-
-   </url>
-
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://www.aaryandehade.live/new</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.aaryandehade.live/Resume.pdf</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.aaryandehade.live/contact</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.aaryandehade.live/blog</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.aaryandehade.live/old/contact</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.aaryandehade.live/old/about</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.aaryandehade.live/old/projects</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.aaryandehade.live/old</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.aaryandehade.live/blog/000001</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.aaryandehade.live/blog/000002</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.aaryandehade.live/blog/000003</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.aaryandehade.live/blog/000004</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.aaryandehade.live/blog/000005</loc>
+    <changefreq>weekly</changefreq>
+  </url>
 </urlset>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
