@@ -12,6 +12,7 @@ export default function ProjectsOld() {
             <Project title="Music.www" link="https://github.com/dehadeaaryan/Music.www" />
             <Project title="Quacker" link="https://github.com/dehadeaaryan/quacker-bot-master" />
             <Project title="Turtler" link="https://github.com/dehadeaaryan/turtler" />
+            <Project title="Book Manager" link="https://github.com/dehadeaaryan/BookManager_Aaryan_Dehade" />
             <Project title="pygame-builder" link="https://github.com/dehadeaaryan/pygame-builder" />
             <Project title="Chess game" link="https://github.com/dehadeaaryan/chess" />
             <Project title="Sudoku Solver" link="https://github.com/dehadeaaryan/Sudoku-Solver" />
