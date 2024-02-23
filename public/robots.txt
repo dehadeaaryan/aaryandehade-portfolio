@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://www.aaryandehade.live/sitemap.xml
+Sitemap: https://www.aaryandehade.me/sitemap.xml

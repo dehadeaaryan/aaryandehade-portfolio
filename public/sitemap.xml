@@ -1,57 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>https://www.aaryandehade.live/new</loc>
+    <loc>https://www.aaryandehade.me/new</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://www.aaryandehade.live/Resume.pdf</loc>
+    <loc>https://www.aaryandehade.me/Resume.pdf</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://www.aaryandehade.live/contact</loc>
+    <loc>https://www.aaryandehade.me/contact</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://www.aaryandehade.live/blog</loc>
+    <loc>https://www.aaryandehade.me/blog</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://www.aaryandehade.live/old/contact</loc>
+    <loc>https://www.aaryandehade.me/old/contact</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://www.aaryandehade.live/old/about</loc>
+    <loc>https://www.aaryandehade.me/old/about</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://www.aaryandehade.live/old/projects</loc>
+    <loc>https://www.aaryandehade.me/old/projects</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://www.aaryandehade.live/old</loc>
+    <loc>https://www.aaryandehade.me/old</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://www.aaryandehade.live/blog/000001</loc>
+    <loc>https://www.aaryandehade.me/blog/000001</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://www.aaryandehade.live/blog/000002</loc>
+    <loc>https://www.aaryandehade.me/blog/000002</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://www.aaryandehade.live/blog/000003</loc>
+    <loc>https://www.aaryandehade.me/blog/000003</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://www.aaryandehade.live/blog/000004</loc>
+    <loc>https://www.aaryandehade.me/blog/000004</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://www.aaryandehade.live/blog/000005</loc>
+    <loc>https://www.aaryandehade.me/blog/000005</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
-<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
