@@ -1,34 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Aaryan Dehade's Online Portfolio
 
-## Getting Started
+## Project Overview
 
-First, run the development server:
+This React/Next project has the following features:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+1. Display my projects
+2. Display an about page with more information about me
+3. Display my resumé
+4. Display contant information
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation Instructions
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Nextjs and Nodejs are required to run this project.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Usage Guide
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Running the project
 
-## Learn More
+1. Open a terminal.
+2. Run: `npx run dev`
 
-To learn more about Next.js, take a look at the following resources:
+### Configuration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is hosted on [Vercel](https://vercel.com/).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Project Structure
 
-## Deploy on Vercel
+### blogPosts
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This folder contains all the markdown files for the blog. Databases were not used.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### components
+
+This folder contains all the React components used in thsi project.
+
+### icons
+
+This folder contains icons used.
+
+### lib
+
+This folder contains the extra functions used in this project.
+
+### pages
+
+This folder is the main nextjs site folder.
+
+### public
+
+This folder contains all the public files and images.
+
+### styles
+
+This folder contains the styling for all pages.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
