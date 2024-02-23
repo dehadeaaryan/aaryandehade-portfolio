@@ -15,10 +15,10 @@ const linkedinLink = "https://www.linkedin.com/in/aaryandehade/"
 export default function Contact() {
     return (
         <div className={styles.container}>
-            <a target="_blank" href={mailLink} rel="noopener noreferrer" className={styles.link}><Mail /></a>
-            <a target="_blank" href={messageLink} rel="noopener noreferrer" className={styles.link}><Message /></a>
-            <a target="_blank" href={githubLink} rel="noopener noreferrer" className={styles.link}><Github /></a>
-            <a target="_blank" href={linkedinLink} rel="noopener noreferrer" className={styles.link}><Linkedin /></a>
+            <a target="_blank" href={mailLink} rel="noopener noreferrer" aria-label="mail" className={styles.link}><Mail /></a>
+            <a target="_blank" href={messageLink} rel="noopener noreferrer" aria-label="message" className={styles.link}><Message /></a>
+            <a target="_blank" href={githubLink} rel="noopener noreferrer" aria-label="github" className={styles.link}><Github /></a>
+            <a target="_blank" href={linkedinLink} rel="noopener noreferrer" aria-label="linkedin" className={styles.link}><Linkedin /></a>
             {/* <a target="_blank" href={Hackerrank} rel="noopener noreferrer" className={styles.link}><Hackerrank /></a> */}
             <span className={styles.link}></span>
         </div>
