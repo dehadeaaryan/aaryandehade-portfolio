@@ -3,7 +3,7 @@ import styles from '../../styles/new/about.module.css'
 
 const tcu = <a href='https://tcu.edu' target="_blank" rel="noopener noreferrer">Texas Christian University</a>
 const about = <p className={styles.about}>
-Greetings! I&apos;m Aaryan Dehade, a dedicated Computer Science student at {tcu}, also specializing in Mathematics. Explore my journey, projects, and accomplishments on this platform. Let&apos;s connect and share our experiences in the dynamic world of technology!
+    Hi! I&apos;m Aaryan Dehade, a dedicated student at {tcu}, studying Computer Science and Math. Keep up with my journey here!
 </p>
 
 export default function About() {
