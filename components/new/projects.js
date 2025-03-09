@@ -7,6 +7,12 @@ function classNames(...classes) {
 
 const projects = [
     {
+        title: 'DropThatClass',
+        description: 'Up-to-date class reviews for students',
+        link: 'https://github.com/dehadeaaryan',
+        categories: ['Web', 'AI/ML'],
+    },
+    {
         title: 'Marie Simulator',
         description: 'Simulator for MARIE (Machine Architecture that is Really Intuitive and Easy)',
         link: 'https://github.com/dehadeaaryan/MarieSimulator',
@@ -71,12 +77,6 @@ const projects = [
         description: 'Miscellaneous utilities for students',
         link: 'https://github.com/dehadeaaryan/tcuutilities',
         categories: ['Web', 'Utilities'],
-    },
-    {
-        title: 'More Projects',
-        description: 'Visit my GitHub for more projects',
-        link: 'https://github.com/dehadeaaryan',
-        categories: ['Miscellaneous'],
     },
     {
         title: 'Pygame Builder',
@@ -179,6 +179,12 @@ const projects = [
         description: 'Maze solver project for data structures class',
         link: 'https://github.com/dehadeaaryan/mazesolver-dehadeaaryan',
         categories: ['Java'],
+    },
+    {
+        title: 'More Projects',
+        description: 'Visit my GitHub for more projects',
+        link: 'https://github.com/dehadeaaryan',
+        categories: ['Miscellaneous'],
     },
 ];
 
