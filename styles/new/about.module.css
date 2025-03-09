@@ -17,7 +17,7 @@
 }
 
 .about {
-    font-size: 3rem;
+    font-size: 1.8rem;
     font-weight: 200;
     margin: 0;
     text-align: center;
@@ -36,7 +36,29 @@
     text-decoration-color: var(--secondary-color);
 }
 
+@media screen and (max-width: 1200px) {
+
+    /* Large Laptop */
+    .about {
+        font-size: 1.7rem;
+        padding: 4rem;
+        word-spacing: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    /* Medium Laptop / iPad Landscape */
+    .about {
+        font-size: 1.6rem;
+        padding: 3rem;
+        word-spacing: 0.5rem;
+    }
+}
+
 @media screen and (max-width: 860px) {
+
+    /* Tablet / Small Laptop */
     .container {
         justify-content: flex-start;
         padding: 0.5rem;
@@ -45,7 +67,25 @@
     .about {
         word-spacing: 0.2rem;
         text-align: center;
-        font-size: 1.2rem;
+        font-size: 2rem;
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    /* Mobile */
+    .about {
+        font-size: 1.4rem;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    /* Mobile */
+    .about {
+        font-size: 1.1rem;
         padding: 1rem;
     }
 }
