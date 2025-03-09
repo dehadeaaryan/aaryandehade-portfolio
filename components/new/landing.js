@@ -11,7 +11,7 @@ export default function Landing() {
 
     React.useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ['I\'m Aaryan Dehade', 'Driven by curiosity, powered by passion', 'Step into my digital realm', 'Your gateway to my adventures'],
+            strings: ['I\'m Aaryan Dehade', 'Driven by curiosity', 'Step into my digital realm', 'Your gateway to my adventures'],
             startDelay: 2500,
             typeSpeed: 50,
             backSpeed: 20,
