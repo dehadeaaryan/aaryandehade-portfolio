@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Footer() {
     return (
-        <div>
+        <div id='footer'>
             <div className={styles.footerSeparator}>
                 <FooterSeparator />
             </div>

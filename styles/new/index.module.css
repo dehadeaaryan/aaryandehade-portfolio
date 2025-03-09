@@ -93,3 +93,28 @@
         padding: 2rem 0.5rem 2rem 0.5rem;
     }
 }
+
+/* New button style for mobile */
+.scrollToFooterButton {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 1rem 2rem;
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 10;
+    display: none;
+    /* Initially hidden */
+}
+
+/* Show button only when it's needed (mobile screen and when scrolling down) */
+@media screen and (max-width: 860px) {
+    .scrollToFooterButton {
+        display: block;
+    }
+}

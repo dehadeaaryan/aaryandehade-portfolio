@@ -1,52 +1,51 @@
 html,
 body {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  user-select: none;
-  transition: all 0.3s ease-in-out;
-  
-  --primary-color: white;
-  --secondary-color: rgb(10, 10, 10);
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    user-select: none;
+    transition: all 0.3s ease-in-out;
 
-  --header-background-color: rgba(0, 0, 0, 0.3);
-  --separator-background-color: rgba(255, 255, 255, 1);
-  --footer-background-color: rgba(0, 0, 0, 0);
+    --primary-color: white;
+    /* --secondary-color: rgb(10, 10, 10); */
+    --secondary-color: rgb(0, 0, 0);
 
-  --landing-background-color: rgba(0, 0, 0, 0);
-  --projects-background-color: rgba(255, 255, 255, 1);
-  --about-background-color: rgba(255, 255, 255, 1);
-  --contact-background-color: rgba(255, 255, 255, 1);
+    --header-background-color: rgba(0, 0, 0, 0.3);
+    --separator-background-color: rgba(255, 255, 255, 1);
+    --footer-background-color: rgba(0, 0, 0, 0);
 
-  --page-height: calc(100vh - 6rem);
+    --landing-background-color: rgba(0, 0, 0, 0);
+    --projects-background-color: rgba(255, 255, 255, 1);
+    --about-background-color: rgba(255, 255, 255, 1);
+    --contact-background-color: rgba(255, 255, 255, 1);
 
-  color: var(--primary-color);
-  background-color: var(--secondary-color);
+    --page-height: calc(100vh - 6rem);
 
-  scroll-behavior: smooth;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+
+    scroll-behavior: smooth;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 
-@media only screen and (max-width: 600px) {
-  
-}
+@media only screen and (max-width: 600px) {}

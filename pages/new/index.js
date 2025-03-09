@@ -21,6 +21,31 @@ Modal.setAppElement('#landing');
 
 export default function Index() {
 
+    const [showButton, setShowButton] = React.useState(false);
+
+    const handleScrollToFooter = () => {
+        const footer = document.getElementById('footer');
+        footer?.scrollIntoView({ behavior: 'smooth' });
+    };
+
+    // Show button on scroll down
+    React.useEffect(() => {
+        const handleScroll = () => {
+            if (window.innerWidth <= 860) { // Mobile devices
+                if (window.scrollY > 2000) { // Show button after scrolling down a little
+                    setShowButton(true);
+                } else {
+                    setShowButton(false);
+                }
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     const anchorStyle = {
         visibility: 'hidden',
         position: 'relative',
@@ -82,6 +107,12 @@ export default function Index() {
             </div>
 
             <Footer />
+
+            {showButton && (
+                <button className={styles.scrollToFooterButton} onClick={handleScrollToFooter}>
+                    ↓
+                </button>
+            )}
         </div>
     )
 }
