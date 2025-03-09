@@ -21,12 +21,16 @@ export default function Footer() {
                     <a className={styles.link}>About</a>
                 </Link>
 
+                <Link href="#resume">
+                    <a className={styles.link}>Profile</a>
+                </Link>
+
                 <Link href="#contact">
                     <a className={styles.link}>Contact</a>
                 </Link>
                 <span className={styles.link}></span>
             </div>
-            <div className={styles.copyright}>2024 Aaryan Dehade</div>
+            <div className={styles.copyright}>2025 Aaryan Dehade</div>
         </div>
     )
 }

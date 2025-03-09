@@ -35,20 +35,18 @@ export default function Index() {
                 <span style={anchorStyle} id="landing"></span>
                 <span className={styles.np}></span>
                 <div className={styles.div}>
-                    <Landing/>
+                    <Landing />
                 </div>
 
                 <div className={styles.landingSeparator}>
                     <LandingSeparator />
                 </div>
-                
-                <HeaderProjects />
+
+                <HeaderResume />
 
                 <div className={styles.div}>
-                    <span style={anchorStyle} id="projects"></span>
-                    <div className={styles.projectsContainer}>
-                        <Projects />
-                    </div>
+                    <span style={anchorStyle} id="resume"></span>
+                    <Resume />
                 </div>
 
                 <HeaderAbout />
@@ -58,11 +56,13 @@ export default function Index() {
                     <About />
                 </div>
 
-                <HeaderResume />
+                <HeaderProjects />
 
                 <div className={styles.div}>
-                    <span style={anchorStyle} id="resume"></span>
-                    <Resume />
+                    <span style={anchorStyle} id="projects"></span>
+                    <div className={styles.projectsContainer}>
+                        <Projects />
+                    </div>
                 </div>
 
                 {/* <HeaderSkills />
@@ -78,7 +78,7 @@ export default function Index() {
                     <span style={anchorStyle} id="contact"></span>
                     <Contact />
                 </div>
-            
+
             </div>
 
             <Footer />
@@ -100,7 +100,7 @@ const HeaderAbout = () => (
 
 const HeaderResume = () => (
     <div className={styles.subHeader}>
-        <h2>Resume</h2>
+        <h2>Profile</h2>
     </div>
 )
 

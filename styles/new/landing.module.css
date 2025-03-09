@@ -29,70 +29,105 @@
     word-spacing: 1rem;
     font-family: 'Pixelify Sans', sans-serif;
 
-    overflow: hidden; 
-    border-right: .15em solid var(--primary-color); 
+    overflow: hidden;
+    border-right: .15em solid var(--primary-color);
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: .15em;
-    animation: 
+    /* animation: 
         typing 3s steps(40, end) 3s forwards,
-        blink-caret 0.75s step-end infinite;
+        blink-caret 0.75s step-end infinite; */
+}
+
+.typedText {
+    width: 80%;
+    display: inline-block;
+    font-family: 'Pixelify Sans', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
 }
 
 @keyframes first {
-    from { filter: drop-shadow(0rem 5rem 0rem rgba(64, 255, 0, 0.2)); }
-    to { filter: drop-shadow(0rem 0.5rem 0.5rem rgba(64, 255, 0, 0.8)); }
+    from {
+        filter: drop-shadow(0rem 5rem 0rem rgba(64, 255, 0, 0.2));
+    }
+
+    to {
+        filter: drop-shadow(0rem 0.5rem 0.5rem rgba(64, 255, 0, 0.8));
+    }
 }
 
 @keyframes titleKeyframes {
     0% {
         filter: drop-shadow(0rem 0.5rem 0.5rem rgba(64, 255, 0, 0.8));
     }
+
     25% {
         filter: drop-shadow(0 0.5rem 0.5rem rgba(0, 255, 255, 0.8));
     }
+
     50% {
         filter: drop-shadow(0 0.5rem 0.5rem rgba(242, 0, 255, 0.8));
     }
+
     75% {
         filter: drop-shadow(0 0.5rem 0.5rem rgba(0, 255, 251, 0.8));
     }
+
     100% {
         filter: drop-shadow(0 0.5rem 0.5rem rgba(64, 255, 0, 0.8));
     }
-    
+
 }
 
 /* The typing effect */
 @keyframes typing {
-    from { width: 0 }
-    to { width: 80% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: var(--primary-color); }
-  }
+    from {
+        width: 0
+    }
 
-  .two {
+    to {
+        width: 80%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: var(--primary-color);
+    }
+}
+
+.two {
     display: none;
-  }
+}
 
 @media screen and (max-width: 860px) {
     .title {
         font-size: 5rem;
     }
+
     .paragraph {
         font-size: 1rem;
         width: 100%;
         animation: none;
-        border-right: none; 
+        border-right: none;
         white-space: nowrap;
         overflow: hidden;
         display: inline-block;
 
-        
+
     }
 
     .paragraph span {
@@ -105,12 +140,17 @@
         display: block;
     }
 
+    .typedText {
+        font-size: 1rem;
+    }
+
     @keyframes infiniteScroll {
         0% {
             transform: translate(0, 0);
         }
+
         100% {
             transform: translate(-100%, 0);
         }
-      }
+    }
 }
