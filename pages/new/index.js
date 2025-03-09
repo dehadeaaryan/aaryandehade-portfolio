@@ -1,5 +1,4 @@
 import Link from 'next/link'
-
 import styles from '../../styles/new/index.module.css'
 
 import Header from '../../components/new/header'
@@ -20,30 +19,36 @@ import Modal from 'react-modal';
 Modal.setAppElement('#landing');
 
 export default function Index() {
-
     const [showButton, setShowButton] = React.useState(false);
+    const prevScrollY = React.useRef(0);
 
     const handleScrollToFooter = () => {
         const footer = document.getElementById('footer');
         footer?.scrollIntoView({ behavior: 'smooth' });
     };
 
-    // Show button on scroll down
+    // Show scroll button on mobile when scrolled past one viewport and scrolling down
     React.useEffect(() => {
         const handleScroll = () => {
+            const currentScrollY = window.scrollY;
             if (window.innerWidth <= 860) { // Mobile devices
-                if (window.scrollY > 2000) { // Show button after scrolling down a little
-                    setShowButton(true);
-                } else {
+                if (currentScrollY < window.innerHeight) {
                     setShowButton(false);
+                } else {
+                    if (currentScrollY > prevScrollY.current) {
+                        // Scrolling down: show button
+                        setShowButton(true);
+                    } else {
+                        // Scrolling up: hide button
+                        setShowButton(false);
+                    }
                 }
             }
+            prevScrollY.current = currentScrollY;
         };
 
         window.addEventListener('scroll', handleScroll);
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
+        return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
     const anchorStyle = {
@@ -90,6 +95,7 @@ export default function Index() {
                     </div>
                 </div>
 
+                {/* Uncomment if needed */}
                 {/* <HeaderSkills />
 
                 <div className={styles.div}>
@@ -108,11 +114,13 @@ export default function Index() {
 
             <Footer />
 
-            {showButton && (
-                <button className={styles.scrollToFooterButton} onClick={handleScrollToFooter}>
-                    ↓
-                </button>
-            )}
+            {/* Always render the button, but use CSS classes to transition its visibility */}
+            <button
+                className={`${styles.scrollToFooterButton} ${showButton ? styles.visibleButton : styles.hiddenButton}`}
+                onClick={handleScrollToFooter}
+            >
+                ↓
+            </button>
         </div>
     )
 }

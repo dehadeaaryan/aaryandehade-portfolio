@@ -1,7 +1,7 @@
 .container {
     background-color: var(--about-background-color);
     color: var(--secondary-color);
-    height: calc(100vh - 6rem);
+    min-height: calc(100vh - 6rem);
     width: 100%;
     margin: 0;
     padding: 2rem;
@@ -17,14 +17,18 @@
 }
 
 .about {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     font-weight: 200;
     margin: 0;
     text-align: center;
-    width: 100%;
+    width: 70%;
     word-spacing: 1rem;
     padding: 5rem;
     transition: all 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .about a {
@@ -69,6 +73,7 @@
         text-align: center;
         font-size: 2rem;
         padding: 2rem;
+        width: 90%;
     }
 }
 

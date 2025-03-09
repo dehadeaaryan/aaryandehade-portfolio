@@ -94,7 +94,7 @@
     }
 }
 
-/* New button style for mobile */
+/* Scroll-to-Footer Button Base Style */
 .scrollToFooterButton {
     position: fixed;
     bottom: 1rem;
@@ -106,15 +106,25 @@
     border-radius: 30px;
     font-size: 1rem;
     cursor: pointer;
-    transition: background-color 0.3s ease;
     z-index: 10;
-    display: none;
-    /* Initially hidden */
+    transition: transform 0.4s ease, opacity 0.4s ease;
 }
 
-/* Show button only when it's needed (mobile screen and when scrolling down) */
-@media screen and (max-width: 860px) {
+/* When the button should be visible */
+.visibleButton {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+/* When the button should be hidden (moved off-screen to the right) */
+.hiddenButton {
+    transform: translateX(150%);
+    opacity: 0;
+}
+
+/* Ensure the button only displays on mobile */
+@media screen and (min-width: 861px) {
     .scrollToFooterButton {
-        display: block;
+        display: none;
     }
 }

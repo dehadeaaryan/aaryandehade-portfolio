@@ -18,7 +18,7 @@ const about = <p className={styles.about}>
 export default function About() {
     return (
         <div className={styles.container}>
-            <p>{about}</p>
+            {about}
         </div>
     )
 }
