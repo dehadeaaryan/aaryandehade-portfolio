@@ -27,10 +27,11 @@
 }
 
 .subHeader {
-    height:10vh;
+    height: 10vh;
     width: 100%;
     background-color: var(--separator-background-color);
     padding: 0;
+    font-family: 'Pixelify Sans', sans-serif;
 }
 
 .subHeader h2 {
@@ -45,7 +46,7 @@
     flex-direction: column;
     justify-content: flex-end;
     color: black;
-    
+
     filter: drop-shadow(0 0.5rem 0.5rem rgba(0, 0, 0, 0.5));
 }
 

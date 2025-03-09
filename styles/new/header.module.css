@@ -3,11 +3,12 @@
     color: var(--primary-color);
     height: 6rem;
     text-align: center;
+    font-family: 'Pixelify Sans', sans-serif;
 
     padding: 2rem;
 
     z-index: 2;
-    
+
     position: fixed;
     top: 0;
     width: 100%;
@@ -52,5 +53,5 @@
     .header {
         /* padding: 1rem; */
     }
-    
+
 }

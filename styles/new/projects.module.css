@@ -27,6 +27,7 @@
     font-size: 1rem;
     border-radius: 0.5rem;
     margin-right: 1rem;
+    font-family: 'Pixelify Sans', sans-serif;
 }
 
 .tab:hover {
@@ -77,6 +78,7 @@
     font-size: 1.1rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
+    font-family: 'Pixelify Sans', sans-serif;
 }
 
 .projectDescription {
