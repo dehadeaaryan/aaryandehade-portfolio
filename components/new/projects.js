@@ -13,6 +13,12 @@ const projects = [
         categories: ['Web', 'Database', 'AI/ML'],
     },
     {
+        title: 'iPELiNT',
+        description: 'Created a patent classification model using TensorFlow and Keras',
+        link: 'https://www.ipelint.com/',
+        categories: ['Web', 'Database', 'AI/ML'],
+    },
+    {
         title: 'SuperFrog Scheduler Backend',
         description: 'Java backend for SuperFrog Scheduler project with Spring Boot',
         link: 'https://github.com/dehadeaaryan/superfrog-scheduler-backend',
