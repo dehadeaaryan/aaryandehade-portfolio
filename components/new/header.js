@@ -79,7 +79,7 @@ export default function Header() {
                     </li>
                     <li>
                         <Link href="#contact">
-                            <a className={styles.navItem}>About</a>
+                            <a className={styles.navItem}>Contact</a>
                         </Link>
                     </li>
                 </ul>
