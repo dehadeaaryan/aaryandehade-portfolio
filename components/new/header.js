@@ -57,11 +57,11 @@ export default function Header() {
             <nav className={styles.nav}>
                 {/* Desktop navigation */}
                 <ul className={styles.navLinks}>
-                    <li>
+                    {/* <li>
                         <Link href="/blog">
                             <a className={styles.navItem}>Blog</a>
                         </Link>
-                    </li>
+                    </li> */}
                     <li>
                         <Link href="#resume">
                             <a className={styles.navItem}>Profile</a>
@@ -94,13 +94,13 @@ export default function Header() {
             {mobileMenuOpen && (
                 <div className={styles.mobileMenu}>
                     <ul className={styles.mobileNavLinks}>
-                        <li>
+                        {/* <li>
                             <Link href="/blog">
                                 <a onClick={() => setMobileMenuOpen(false)} className={styles.navItem}>
                                     Blog
                                 </a>
                             </Link>
-                        </li>
+                        </li> */}
                         <li>
                             <Link href="#resume">
                                 <a onClick={() => setMobileMenuOpen(false)} className={styles.navItem}>
